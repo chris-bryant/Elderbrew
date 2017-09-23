@@ -10633,3 +10633,7 @@ p {
 hr {
   border-bottom: 10px solid #fff;
 }
+
+.logo {
+  max-width: 100vw;
+}
