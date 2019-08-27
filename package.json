@@ -1,8 +1,0 @@
-{
-  "name": "elderbrew-tiny",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/chris-bryant/Elderbrew.git",
-  "author": "Chris Bryant <cbryant@caxy.com>",
-  "license": "MIT"
-}
