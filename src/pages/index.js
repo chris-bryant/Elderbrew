@@ -34,6 +34,21 @@ const GlobalStyle = createGlobalStyle`
     h4 span {
       font-weight: normal;
     }
+
+    h2 span {
+      display: block;
+      font-size: 1.2rem;
+      font-weight: normal;
+    }
+
+    .selection-banner {
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 0.25em;
+      width: 600px;
+      max-width: 80vw;
+      margin: 2em auto;
+      padding: 1em;
+    }
   
     img {
       max-width: 90%;
@@ -85,13 +100,16 @@ const BrewsSection = styled.div`
 `
 
 const SocialLinks = styled.div`
+  margin-top: 1em;
+
   a {
     text-decoration: none;
   }
 
   img {
     width: 50px;
-    margin: 10px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
 `
 
@@ -136,7 +154,37 @@ const IndexPage = () => (
     </Logo>
     <h1>Bristol, TN's First Small Batch Brewery</h1>
     <h2>24 6th Street, Bristol, TN 37620</h2>
-    <img src={owls} alt="The Owls Are Not What They Seem" />
+    <h3>Hours</h3>
+    <Hours>
+      <p>
+        Monday and Tuesday - Gone Fishin'
+      </p>
+      <p>
+        Wednesday - Saturday: 5pm-10pm
+      </p>
+      <p>
+        Sunday: 1pm-6pm
+      </p>
+    </Hours>
+    <h3>Contact</h3>
+    <p>
+      <a href="mailto:elderbrewtn@gmail.com">elderbrewtn@gmail.com</a>
+    </p>
+    <h2 className="selection-banner">
+      Our beer selection changes weekly!
+      <span>
+        Follow us on Facebook and Instagram for the latest updates!
+      </span>
+      <SocialLinks>
+        <a href="https://www.facebook.com/elderbrew/">
+          <img src={fbIcon} alt="Elderbrew on Facebook"/>
+        </a>
+        <a href="https://www.instagram.com/elderbrew/">
+          <img src={igIcon} alt="Elderbrew on Instagram" />
+        </a>
+      </SocialLinks>
+    </h2>
+    {/* <img src={owls} alt="The Owls Are Not What They Seem" />
     <h1>The Owls Are Not What They Seem</h1>
     <h4>Brett Saison with EKG, Amarillo, and Grains of Paradise</h4>
     <BrewsSection>
@@ -148,7 +196,7 @@ const IndexPage = () => (
         Available for $12 per bottle, or for a limited time, you can get our custom and highly limited glassware
         and a bottle for $20! Don't wait. Neither the glasses nor the beer will last long!
       </p>
-    </BrewsSection>
+    </BrewsSection> */}
     <h1>Elderbrew Beers</h1>
     <BrewsSection>
       <p>
@@ -283,36 +331,6 @@ const IndexPage = () => (
         </p>
       </BeerSection>
     </BrewsSection>
-    <h3>Hours</h3>
-    <Hours>
-      <p>
-        Sunday: 4pm-8pm
-      </p>
-      <p>
-        Monday - Gone Fishin'
-      </p>
-      <p>
-        Tuesday - Thursday: 5pm-11pm
-      </p>
-      <p>
-        Friday - Saturday: 4pm-12am
-      </p>
-    </Hours>
-    <h3>Contact</h3>
-    <p>
-      <a href="mailto:elderbrewtn@gmail.com">elderbrewtn@gmail.com</a>
-    </p>
-    <p>
-      Follow us on facebook and instagram for latest on-tap updates, as well as upcoming events!
-    </p>
-    <SocialLinks>
-      <a href="https://www.facebook.com/elderbrew/">
-        <img src={fbIcon} alt="Elderbrew on Facebook"/>
-      </a>
-      <a href="https://www.instagram.com/elderbrew/">
-        <img src={igIcon} alt="Elderbrew on Instagram" />
-      </a>
-    </SocialLinks>
   </>
 )
 
