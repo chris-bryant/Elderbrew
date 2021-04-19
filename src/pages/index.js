@@ -157,10 +157,13 @@ const IndexPage = () => (
     <h3>Hours</h3>
     <Hours>
       <p>
-        Monday and Tuesday - Gone Fishin'
+        Monday - Tuesday: Gone Fishin'
       </p>
       <p>
-        Wednesday - Saturday: 5pm-10pm
+        Wednesday - Friday: 5pm-10pm
+      </p>
+      <p>
+        Saturday: 3pm - 10pm
       </p>
       <p>
         Sunday: 1pm-6pm
