@@ -25,13 +25,13 @@ export default function About() {
           }
         }}>
           <Image
-            src="/Elderbrew/elderbrew-00572.jpg"
+            src="/elderbrew-00572.jpg"
             width="500"
             height="333"
             alt="Elderbrew"
           />
           <Image
-            src="/Elderbrew/elderbrew-00608.jpg"
+            src="/elderbrew-00608.jpg"
             width="500"
             height="333"
             alt="Elderbrew"

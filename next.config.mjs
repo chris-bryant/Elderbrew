@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: "/Elderbrew",
+  // basePath: "/Elderbrew",
   compiler: {
     styledComponents: true,
   },
