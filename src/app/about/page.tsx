@@ -13,7 +13,7 @@ const StyledBigHeader = styled(BigHeader)(() => ({
 }));
 
 const imageLoader = ({ src, width, quality }: ImageLoaderProps) => {
-  return `http://www.elderbrew.com/${src}?w=${width}&q=${quality || 75}`
+  return `https://www.elderbrew.com/${src}?w=${width}&q=${quality || 75}`
 }
 
 export default function About() {

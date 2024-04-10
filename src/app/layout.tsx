@@ -17,7 +17,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 
 const imageLoader = ({ src, width, quality }: ImageLoaderProps) => {
-  return `http://www.elderbrew.com/${src}?w=${width}&q=${quality || 75}`
+  return `https://www.elderbrew.com/${src}?w=${width}&q=${quality || 75}`
 }
 
 const Footer = styled(Box)(() => ({
