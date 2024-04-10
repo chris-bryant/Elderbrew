@@ -40,7 +40,7 @@ export default function RootLayout({
                 <Stack direction={{ xs: 'column', md: 'row' }} justifyContent="space-between" alignItems="center" marginTop={4} marginBottom={4}>
                   <Link href="/">
                     <Image
-                      src="/elderbrew-bw.png"
+                      src="/Elderbrew/elderbrew-bw.png"
                       width="200"
                       height="127"
                       alt="Elderbrew"
@@ -116,7 +116,7 @@ export default function RootLayout({
                     }}
                   >
                     <Image
-                      src="/elderbrew-bw.png"
+                      src="/Elderbrew/elderbrew-bw.png"
                       width="500"
                       height="250"
                       alt="Elderbrew"

@@ -27,8 +27,8 @@ export default function About() {
           maxHeight: { xs: 'auto', md: '530px' },
         }
       }}>
-        <Image src="/outside.jpg" alt="Elderbrew" sizes="100vw" width="600" height="900" style={{ width: '100%', height: 'auto' }} />
-        <Image src="/gray-worry.jpg" alt="Elderbrew" sizes="100vw" width="900" height="600" style={{ width: '100%', height: 'auto' }} />
+        <Image src="/Elderbrew/outside.jpg" alt="Elderbrew" sizes="100vw" width="600" height="900" style={{ width: '100%', height: 'auto' }} />
+        <Image src="/Elderbrew/gray-worry.jpg" alt="Elderbrew" sizes="100vw" width="900" height="600" style={{ width: '100%', height: 'auto' }} />
       </Stack>
       <Stack direction={{ xs: 'column', md: 'row' }} justifyContent='center' sx={{
         '& img': {
@@ -37,8 +37,8 @@ export default function About() {
           maxHeight: { xs: 'auto', md: '530px' },
         }
       }}>
-        <Image src="/merch.jpg" alt="Elderbrew" sizes="100vw" width="900" height="600" style={{ width: '100%', height: 'auto' }} />
-        <Image src="/game.jpg" alt="Elderbrew" sizes="100vw" width="600" height="900" style={{ width: '100%', height: 'auto' }} />
+        <Image src="/Elderbrew/merch.jpg" alt="Elderbrew" sizes="100vw" width="900" height="600" style={{ width: '100%', height: 'auto' }} />
+        <Image src="/Elderbrew/game.jpg" alt="Elderbrew" sizes="100vw" width="600" height="900" style={{ width: '100%', height: 'auto' }} />
       </Stack>
     </>
   );
