@@ -32,7 +32,7 @@ export default function About() {
         }
       }}>
         <Image
-          src="/outside.jpg"
+          src="outside.jpg"
           alt="Elderbrew"
           sizes="100vw"
           width="600"
@@ -41,7 +41,7 @@ export default function About() {
           loader={imageLoader}
         />
         <Image
-          src="/gray-worry.jpg"
+          src="gray-worry.jpg"
           alt="Elderbrew"
           sizes="100vw"
           width="900"
@@ -58,7 +58,7 @@ export default function About() {
         }
       }}>
         <Image
-          src="/merch.jpg"
+          src="merch.jpg"
           alt="Elderbrew"
           sizes="100vw"
           width="900"
@@ -67,7 +67,7 @@ export default function About() {
           loader={imageLoader}
         />
         <Image
-          src="/game.jpg"
+          src="game.jpg"
           alt="Elderbrew"
           sizes="100vw"
           width="600"
