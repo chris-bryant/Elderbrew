@@ -1,7 +1,7 @@
 'use client'
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
-import Image from 'next/image'
+import Image, { ImageLoaderProps } from 'next/image'
 import BigHeader from '@/components/BigHeader';
 import { styled } from '@mui/material/styles';
 
@@ -11,6 +11,10 @@ const StyledBigHeader = styled(BigHeader)(() => ({
   width: 'fit-content',
   margin: '0 0 2rem',
 }));
+
+const imageLoader = ({ src, width, quality }: ImageLoaderProps) => {
+  return `http://www.elderbrew.com/${src}?w=${width}&q=${quality || 75}`
+}
 
 export default function About() {
   return (
@@ -29,12 +33,14 @@ export default function About() {
             width="500"
             height="333"
             alt="Elderbrew"
+            loader={imageLoader}
           />
           <Image
             src="/elderbrew-00608.jpg"
             width="500"
             height="333"
             alt="Elderbrew"
+            loader={imageLoader}
           />
         </Stack>
         <Stack spacing={4}>

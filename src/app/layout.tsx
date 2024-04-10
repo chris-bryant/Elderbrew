@@ -9,12 +9,16 @@ import Nav from "@/components/Nav";
 import { Container, Box, Stack, Typography } from "@mui/material";
 import Divider from '@mui/material/Divider';
 import { styled } from '@mui/material/styles';
-import Image from 'next/image'
+import Image, { ImageLoader, ImageLoaderProps } from 'next/image'
 import Link from "next/link";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
+
+const imageLoader = ({ src, width, quality }: ImageLoaderProps) => {
+  return `http://www.elderbrew.com/${src}?w=${width}&q=${quality || 75}`
+}
 
 const Footer = styled(Box)(() => ({
   backgroundColor: '#000',
@@ -44,6 +48,7 @@ export default function RootLayout({
                       width="200"
                       height="127"
                       alt="Elderbrew"
+                      loader={imageLoader}
                     />
                   </Link>
                   <Nav />
@@ -120,6 +125,7 @@ export default function RootLayout({
                       width="500"
                       height="250"
                       alt="Elderbrew"
+                      loader={imageLoader}
                     />
                   </Box>
                   <Stack justifyContent="flex-end" alignItems={{ xs: 'center', sm: 'flex-end' }} spacing={2}>
