@@ -128,23 +128,23 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#4</span>
               <Typography variant="h5">
-                Paper Crowns
+                Deadhead
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Hazy IPA
+                  West Coast IPA
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  6.8% ABV
+                  6.9% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  -- IBU
+                  60 IBU
                 </Stack>
               </Typography>
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Xül
+                Destihl
               </Typography>
-              Knoxville, TN
+              Normal, IL
             </CardContent>
           </Card>
         </Grid>
@@ -178,13 +178,13 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#6</span>
               <Typography variant="h5">
-                Go Forth
+                Pickle Kölsch
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Brown Ale
+                  Kölsch
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  --% ABV
+                  5% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   -- IBU
                 </Stack>
@@ -192,9 +192,9 @@ export default function OnTap() {
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Wanderlinger
+                Tailgate Brewery
               </Typography>
-              Chattanooga, TN
+              Nashville, TN
             </CardContent>
           </Card>
         </Grid>
@@ -204,13 +204,13 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#7</span>
               <Typography variant="h5">
-                Local AF
+                Mayor Berry
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Blackberry Vanilla Cider
+                  Blueberry Lavender Cider
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  5% ABV
+                  6.7% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   -- IBU
                 </Stack>
