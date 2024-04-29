@@ -204,13 +204,13 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#7</span>
               <Typography variant="h5">
-                Mayor Berry
+                Hibiscus Cider
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Blueberry Lavender Cider
+                  // Blueberry Lavender Cider
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  6.7% ABV
+                  4.3% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   -- IBU
                 </Stack>
@@ -218,9 +218,9 @@ export default function OnTap() {
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Diskin Cider
+                Stem Ciders
               </Typography>
-              Nashville, TN
+              Denver, CO
             </CardContent>
           </Card>
         </Grid>
