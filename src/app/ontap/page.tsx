@@ -208,7 +208,6 @@ export default function OnTap() {
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  // Blueberry Lavender Cider
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   4.3% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
