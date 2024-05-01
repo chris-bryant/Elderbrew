@@ -80,10 +80,10 @@ export default function OnTap() {
           <Card>
             <StyledCardHeader>
               <span>#2</span>
-              <Typography variant="h5">Imperial PB&amp;J Stout</Typography>
+              <Typography variant="h5">Transmigration of Souls</Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Stout
+                  DIPA
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   10% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
@@ -93,9 +93,9 @@ export default function OnTap() {
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Tailgate Brewery
+                Orpheus Brewing
               </Typography>
-              Nashville, TN
+              Atlanta, GA
             </CardContent>
           </Card>
         </Grid>
@@ -128,13 +128,13 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#4</span>
               <Typography variant="h5">
-                Deadhead
+                Everhaze
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  West Coast IPA
+                  Hazy NEIPA
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  6.9% ABV
+                  7% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   60 IBU
                 </Stack>
@@ -142,9 +142,9 @@ export default function OnTap() {
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Destihl
+                Tripping Animals
               </Typography>
-              Normal, IL
+              Doral, FL
             </CardContent>
           </Card>
         </Grid>
@@ -228,13 +228,13 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#8</span>
               <Typography variant="h5">
-                Toro y Oro
+                Emergency Drinking Beer
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Mexican Lager
+                  Beer Flavored Beer
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  5.3% ABV
+                  4.4% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   -- IBU
                 </Stack>
@@ -242,9 +242,9 @@ export default function OnTap() {
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Xül
+                Wild Heaven
               </Typography>
-              Knoxville, TN
+              Avondale Estates, GA
             </CardContent>
           </Card>
         </Grid>
@@ -253,23 +253,23 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#9</span>
               <Typography variant="h5">
-                Smithwick&apos;s Red Ale
+                Navel Gazer
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Red Ale
+                  Imperial Stout
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  8% ABV
+                  9.25% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  80 IBU
+                  -- IBU
                 </Stack>
               </Typography>
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Guinness
+                New Heights
               </Typography>
-              Ireland
+              Nashville, TN
             </CardContent>
           </Card>
         </Grid>
@@ -279,13 +279,13 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#10</span>
               <Typography variant="h5">
-                Transmigration of Souls
+                Ancient Trees
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Double IPA
+                  Saison
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  10% ABV
+                  6.6% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   -- IBU
                 </Stack>
@@ -293,9 +293,9 @@ export default function OnTap() {
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Orpheus Brewing
+                Albright Grove Brewing
               </Typography>
-              Atlanta, GA
+              Knoxville, TN
             </CardContent>
           </Card>
         </Grid>
