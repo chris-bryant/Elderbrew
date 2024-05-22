@@ -56,13 +56,13 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#1</span>
               <Typography variant="h5">
-                Pitfall
+                Strawberry Lemonade Shandy
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Apricot Sour
+                  Shandy
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  5.5% ABV
+                  3.5% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   -- IBU
                 </Stack>
@@ -70,9 +70,9 @@ export default function OnTap() {
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Wanderlinger
+                Tailgate Brewing
               </Typography>
-              Chattanooga, TN
+              Nashville, TN
             </CardContent>
           </Card>
         </Grid>
@@ -128,23 +128,23 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#4</span>
               <Typography variant="h5">
-                Everhaze
+                Hop Pusher
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Hazy NEIPA
+                  IPA
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  7% ABV
+                  6.3% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  60 IBU
+                  -- IBU
                 </Stack>
               </Typography>
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Tripping Animals
+                Printshop Beer Co.
               </Typography>
-              Doral, FL
+              Knoxville, TN
             </CardContent>
           </Card>
         </Grid>
@@ -279,13 +279,13 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#10</span>
               <Typography variant="h5">
-                Ancient Trees
+                Cherry Pie Sour
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Saison
+                  Fruit Sour
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  6.6% ABV
+                  4.9% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   -- IBU
                 </Stack>
@@ -293,9 +293,9 @@ export default function OnTap() {
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Albright Grove Brewing
+                Destihl Brewery
               </Typography>
-              Knoxville, TN
+              Normal, IL
             </CardContent>
           </Card>
         </Grid>
