@@ -103,10 +103,12 @@ export default function OnTap() {
           <Card variant="elder">
             <StyledCardHeader>
               <span>#3</span>
-              <Typography variant="h5">Depression Breakfast</Typography>
+              <Typography variant="h5">
+                Rat Trap
+              </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Rat Trap
+                  Belgian Saison
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   6.5% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
@@ -128,7 +130,7 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#4</span>
               <Typography variant="h5">
-                Drivin&apos; That haze
+                Drivin&apos; That Haze
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
