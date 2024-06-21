@@ -128,7 +128,7 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#4</span>
               <Typography variant="h5">
-                Drivin' That haze
+                Drivin&apos; That haze
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
