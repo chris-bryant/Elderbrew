@@ -229,7 +229,7 @@ export default function OnTap() {
         <Grid item xs={12} md={4}>
           <Card variant="elder">
             <StyledCardHeader>
-              <span>#11</span>
+              <span>#8</span>
               <Typography variant="h5">
                 Dark Star
               </Typography>
