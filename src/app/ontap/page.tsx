@@ -56,7 +56,7 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#1</span>
               <Typography variant="h5">
-                Mama Thai'd
+                Mama Thai&apos;d
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
@@ -332,7 +332,7 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#12</span>
               <Typography variant="h5">
-                'Mosa
+                &apos;Mosa
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
