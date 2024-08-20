@@ -227,17 +227,17 @@ export default function OnTap() {
           </Card>
         </Grid>
         <Grid item xs={12} md={4}>
-          <Card>
+          <Card variant="elder">
             <StyledCardHeader>
-              <span>#8</span>
+              <span>#11</span>
               <Typography variant="h5">
-                Pulaski Pils
+                Dark Star
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Pilsner
+                  Black Lager
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  5.1% ABV
+                  5% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   -- IBU
                 </Stack>
@@ -245,9 +245,9 @@ export default function OnTap() {
             </StyledCardHeader>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5">
-                Maplewood Brewing Company
+                Elderbrew
               </Typography>
-              Chicago, IL
+              Bristol!
             </CardContent>
           </Card>
         </Grid>
@@ -307,13 +307,13 @@ export default function OnTap() {
             <StyledCardHeader>
               <span>#11</span>
               <Typography variant="h5">
-                Dark Star
+                Thai Fighter
               </Typography>
               <Typography variant="h6">
                 <Stack direction="row">
-                  Black Lager
+                  Pad Thai-Inspired Pale Ale (HOT!)
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  5% ABV
+                  6% ABV
                   <StyledDivider orientation="vertical" flexItem variant="middle" />
                   -- IBU
                 </Stack>
