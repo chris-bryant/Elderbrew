@@ -44,314 +44,154 @@ const StyledCardHeader = styledComponent.div`
   }
 `;
 
+const OnTapGridItem = styled(Grid)(() => `
+  .MuiPaper-root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+`);
+
 export default function OnTap() {
+  const beers = [
+    // First Row
+    {
+      name: "Mama Thai'd",
+      style: "Pad Thai-Inspired Pale Ale",
+      brewery: 'Elderbrew',
+      breweryLocation: 'Bristol!',
+      abv: '6.0%',
+      ibu: '--',
+    },
+    {
+      name: "Atalanta Plum Saison",
+      style: "Plum Saison",
+      brewery: 'Orpheus Brewing',
+      breweryLocation: 'Atlanta, GA',
+      abv: '5.2%',
+      ibu: '--',
+    },
+    {
+      name: "Rat Trap",
+      style: "Belgian Saison",
+      brewery: 'Elderbrew',
+      breweryLocation: 'Bristol!',
+      abv: '6.5%',
+      ibu: '28',
+    },
+
+    // Second Row
+    {
+      name: "Delicious IPA",
+      style: "IPA",
+      brewery: 'Stone Brewing',
+      breweryLocation: 'Escondido, CA',
+      abv: '7.7%',
+      ibu: '75',
+    },
+    {
+      name: "Blueberry Crumble",
+      style: "Sour Ale",
+      brewery: 'Destihl Brewery',
+      breweryLocation: 'Normal, IL',
+      abv: '5.2%',
+      ibu: '--',
+    },
+    {
+      name: "Neon Renaissance",
+      style: "Pink Guava Gose",
+      brewery: 'Printshop Brewing',
+      breweryLocation: 'Knoxville, TN',
+      abv: '5.9%',
+      ibu: '--',
+    },
+
+    // Third Row
+    {
+      name: "Tiki Tonic",
+      style: "Cider",
+      brewery: 'Diskin Cider',
+      breweryLocation: 'Nashville, TN',
+      abv: '5%',
+      ibu: '--',
+    },
+    {
+      name: "Dark Star",
+      style: "Black Lager",
+      brewery: 'Elderbrew',
+      breweryLocation: 'Bristol!',
+      abv: '5%',
+      ibu: '--',
+    },
+    {
+      name: "Transmigration of Souls",
+      style: "Double IPA",
+      brewery: 'Orpheus Brewing',
+      breweryLocation: 'Atlanta, GA',
+      abv: '10%',
+      ibu: '--',
+    },
+
+    // Fourth Row
+    {
+      name: "Navel Gazer",
+      style: "Imperial Stout",
+      brewery: 'New Heights',
+      breweryLocation: 'Nashville, TN',
+      abv: '10%',
+      ibu: '--',
+    },
+    {
+      name: "Thai Fighter",
+      style: "Pad Thai-Inspired Pale Ale (HOT)",
+      brewery: 'Elderbrew',
+      breweryLocation: 'Bristol!',
+      abv: '6%',
+      ibu: '--',
+    },
+    {
+      name: "'Mosa",
+      style: "Sour Ale",
+      brewery: 'Southern Grist',
+      breweryLocation: 'Nashville, TN',
+      abv: '5.8%',
+      ibu: '--',
+    },
+  ]
   return (
     <>
       <StyledBigHeader>
         On Tap <span>Now</span>
       </StyledBigHeader>
       <Grid container spacing={2}>
-        <Grid item xs={12} md={4}>
-          <Card elevation={6} variant="elder">
-            <StyledCardHeader>
-              <span>#1</span>
-              <Typography variant="h5">
-                Mama Thai&apos;d
-              </Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  Pad Thai-Inspired Pale Ale
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  6.0% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  -- IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                Elderbrew
-              </Typography>
-              Bristol, TN
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <Card>
-            <StyledCardHeader>
-              <span>#2</span>
-              <Typography variant="h5">Atalanta Plum Saison</Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  Atalanta Plum Saison
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  5.2% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  -- IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                Orpheus Brewing
-              </Typography>
-              Atlanta, GA
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <Card variant="elder">
-            <StyledCardHeader>
-              <span>#3</span>
-              <Typography variant="h5">
-                Rat Trap
-              </Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  Belgian Saison
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  6.5% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  28 IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                Elderbrew
-              </Typography>
-              Bristol!
-            </CardContent>
-          </Card>
-        </Grid>
-
-        <Grid item xs={12} md={4}>
-          <Card elevation={6}>
-            <StyledCardHeader>
-              <span>#4</span>
-              <Typography variant="h5">
-                Delicious IPA
-              </Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  IPA
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  7.7% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  75 IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                Stone Brewing
-              </Typography>
-              Escondido, CA
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <Card>
-            <StyledCardHeader>
-              <span>#5</span>
-              <Typography variant="h5">
-                Blueberry Crumble
-              </Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  Sour Ale
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  5.2% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  -- IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                Destihl Brewery
-              </Typography>
-              Normal, IL
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <Card>
-            <StyledCardHeader>
-              <span>#6</span>
-              <Typography variant="h5">
-                Neon Renaissance
-              </Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  Pink Guava Gose
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  5.9% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  -- IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                Printshop Brewing
-              </Typography>
-              Knoxville, TN
-            </CardContent>
-          </Card>
-        </Grid>
-
-        <Grid item xs={12} md={4}>
-          <Card elevation={6}>
-            <StyledCardHeader>
-              <span>#7</span>
-              <Typography variant="h5">
-                Tiki Tonic
-              </Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  Cider
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  5% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  -- IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                Diskin Cider
-              </Typography>
-              Nashville, TN
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <Card variant="elder">
-            <StyledCardHeader>
-              <span>#8</span>
-              <Typography variant="h5">
-                Dark Star
-              </Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  Black Lager
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  5% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  -- IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                Elderbrew
-              </Typography>
-              Bristol!
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <Card>
-            <StyledCardHeader>
-              <span>#9</span>
-              <Typography variant="h5">
-                Transmigration of Souls
-              </Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  Double IPA
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  10% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  -- IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                Orpheus Brewing
-              </Typography>
-              Atlanta, GA
-            </CardContent>
-          </Card>
-        </Grid>
-
-        <Grid item xs={12} md={4}>
-          <Card elevation={6}>
-            <StyledCardHeader>
-              <span>#10</span>
-              <Typography variant="h5">
-                Navel Gazer
-              </Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  Imperial Stout
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  10% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  -- IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                New Hights
-              </Typography>
-              Nashville, TN
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <Card variant="elder">
-            <StyledCardHeader>
-              <span>#11</span>
-              <Typography variant="h5">
-                Thai Fighter
-              </Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  Pad Thai-Inspired Pale Ale (HOT!)
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  6% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  -- IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                Elderbrew
-              </Typography>
-              Bristol!
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <Card>
-            <StyledCardHeader>
-              <span>#12</span>
-              <Typography variant="h5">
-                &apos;Mosa
-              </Typography>
-              <Typography variant="h6">
-                <Stack direction="row">
-                  Sour Ale
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  5.8% ABV
-                  <StyledDivider orientation="vertical" flexItem variant="middle" />
-                  -- IBU
-                </Stack>
-              </Typography>
-            </StyledCardHeader>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h5">
-                Southern Grist
-              </Typography>
-              Nashville, TN
-            </CardContent>
-          </Card>
-        </Grid>
+        {beers.map((beer, i) => (
+          <OnTapGridItem key={beer.name} item xs={12} md={4}>
+            <Card elevation={6} variant={beer.brewery === 'Elderbrew' && 'elder'}>
+              <StyledCardHeader>
+                <span>#{i + 1}</span>
+                <Typography variant="h5">
+                  {beer.name}
+                </Typography>
+                <Typography variant="h6">
+                  <Stack direction="row">
+                    {beer.style}
+                    <StyledDivider orientation="vertical" flexItem variant="middle" />
+                    {beer.abv} ABV
+                    <StyledDivider orientation="vertical" flexItem variant="middle" />
+                    {beer.ibu} IBU
+                  </Stack>
+                </Typography>
+              </StyledCardHeader>
+              <CardContent sx={{ textAlign: 'center' }}>
+                <Typography variant="h5">
+                  {beer.brewery}
+                </Typography>
+                {beer.breweryLocation}
+              </CardContent>
+            </Card>
+          </OnTapGridItem>
+        ))}
       </Grid>
     </>
   );
