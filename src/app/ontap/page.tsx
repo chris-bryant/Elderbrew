@@ -167,7 +167,7 @@ export default function OnTap() {
       <Grid container spacing={2}>
         {beers.map((beer, i) => (
           <OnTapGridItem key={beer.name} item xs={12} md={4}>
-            <Card elevation={6} variant={beer.brewery === 'Elderbrew' && 'elder'}>
+            <Card elevation={6} variant={beer.brewery === 'Elderbrew' ? 'elder' : undefined}>
               <StyledCardHeader>
                 <span>#{i + 1}</span>
                 <Typography variant="h5">
