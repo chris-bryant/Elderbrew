@@ -73,22 +73,22 @@ export default function OnTap() {
       ibu: '--',
     },
     {
-      name: "Mosa",
-      style: "Sour Ale",
-      brewery: 'Southern Grist',
-      breweryLocation: 'Nashville, TN',
-      abv: '5.8%',
+      name: "Chimay",
+      style: "Belgian Quad",
+      brewery: 'Chimay',
+      breweryLocation: 'Belgium',
+      abv: '9%',
       ibu: '--',
     },
 
     // Second Row
     {
-      name: "Incarnation IPA",
+      name: "Juice Pants IPA",
       style: "IPA",
-      brewery: '4 Hands',
-      breweryLocation: 'St. Louis, MO',
+      brewery: 'Maplewood Brewing',
+      breweryLocation: 'Chicago, IL',
       abv: '7%',
-      ibu: '--',
+      ibu: '55',
     },
     {
       name: "Oatmeal Porter",
@@ -99,21 +99,21 @@ export default function OnTap() {
       ibu: '--',
     },
     {
-      name: "Navel Gazer",
-      style: "Imperial Stout",
-      brewery: 'New Heights Brewing',
+      name: "Bourbon Barrel PB+J Milk Stout",
+      style: "Milk Stout",
+      brewery: 'Tailgate Brewery',
       breweryLocation: 'Nashville, TN',
-      abv: '9.2%',
+      abv: '9.1%',
       ibu: '--',
     },
 
     // Third Row
     {
-      name: "Black Cherry Cider",
-      style: "Cider",
-      brewery: '1911',
-      breweryLocation: 'Nedrow, NY',
-      abv: '6.9%',
+      name: "Babe Magnet",
+      style: "Rosé Cider",
+      brewery: 'Diskin Cider',
+      breweryLocation: 'Nashville, TN',
+      abv: '5.8%',
       ibu: '--',
     },
     {
@@ -125,21 +125,21 @@ export default function OnTap() {
       ibu: '--',
     },
     {
-      name: "Carlsberg Lager",
+      name: "Narragansett",
       style: "Lager",
-      brewery: 'Carlsberg',
-      breweryLocation: 'Copenhagen, Denmark',
+      brewery: 'Narragansett',
+      breweryLocation: 'Providence, RI',
       abv: '5%',
       ibu: '--',
     },
 
     // Fourth Row
     {
-      name: "Coffee &amp; Cream Ale",
-      style: "Cream Ale",
-      brewery: 'New Heights',
-      breweryLocation: 'Nashville, TN',
-      abv: '5.6%',
+      name: "Duchesse",
+      style: "Chocolate Cherry Flanders Red",
+      brewery: 'Brouwerij Verhaeghe',
+      breweryLocation: 'Belgium',
+      abv: '6.8%',
       ibu: '--',
     },
     {
