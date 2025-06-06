@@ -83,7 +83,7 @@ export default function OnTap() {
 
     // Second Row
     {
-      name: "Big DumbA",
+      name: "Big Dumb",
       style: "American IPA",
       brewery: 'Elderbrew',
       breweryLocation: 'Bristol!',
@@ -135,7 +135,7 @@ export default function OnTap() {
 
     // Fourth Row
     {
-      name: "Rat Trap (Smoked Wheat Edition)",
+      name: "Rat Trap",
       style: "Belgian Saison",
       brewery: 'Elderbrew',
       breweryLocation: 'Bristol!',
@@ -151,7 +151,7 @@ export default function OnTap() {
       ibu: '32',
     },
     {
-      name: "'London Dungeon",
+      name: "London Dungeon",
       style: "English Bitter",
       brewery: 'Elderbrew',
       breweryLocation: 'Bristol!',
