@@ -57,11 +57,11 @@ export default function OnTap() {
   const beers = [
     // First Row
     {
-      name: "Dr. Robot",
-      style: "Cherry Lemon Sour",
-      brewery: 'Monday Night Brewing',
-      breweryLocation: 'Atlanta, GA',
-      abv: '5.0%',
+      name: "Duchesse",
+      style: "Flanders Red Ale",
+      brewery: 'Brouwerij Verhaeche',
+      breweryLocation: 'Belgium',
+      abv: '6.0%',
       ibu: '--',
     },
     {
@@ -83,12 +83,12 @@ export default function OnTap() {
 
     // Second Row
     {
-      name: "Big Dumb",
-      style: "American IPA",
-      brewery: 'Elderbrew',
-      breweryLocation: 'Bristol!',
-      abv: '6.7%',
-      ibu: '58',
+      name: "Crushinator",
+      style: "Session IPA",
+      brewery: 'Maplewood Brewing',
+      breweryLocation: 'Chicago, IL',
+      abv: '4.5%',
+      ibu: '--',
     },
     {
       name: "Depression Breakfast",
@@ -109,19 +109,19 @@ export default function OnTap() {
 
     // Third Row
     {
-      name: "Mayor Berry",
-      style: "Blueberry Lavender Cider",
-      brewery: 'Diskin Cider',
-      breweryLocation: 'Nashville, TN',
-      abv: '5.7%',
+      name: "UFO White",
+      style: "Witbier",
+      brewery: 'UFO Beer',
+      breweryLocation: 'Boston, MA',
+      abv: '5.1%',
       ibu: '--',
     },
     {
-      name: "Limonata",
-      style: "Hard Italian Soda",
-      brewery: 'Bravazzi',
-      breweryLocation: 'Nashville, TN',
-      abv: '4.2%',
+      name: "Radler",
+      style: "Lager With Grapefruit",
+      brewery: 'Von Trapp',
+      breweryLocation: 'Stowe, VT',
+      abv: '3.9%',
       ibu: '--',
     },
     {
@@ -143,11 +143,11 @@ export default function OnTap() {
       ibu: '--',
     },
     {
-      name: "Crushinator",
-      style: "Session IPA",
-      brewery: 'Maplewood Brewing',
-      breweryLocation: 'Chicago, IL',
-      abv: '4.5%',
+      name: "El Chavo",
+      style: "Mango Habanero Cider",
+      brewery: 'Blakes',
+      breweryLocation: 'Armada, MI',
+      abv: '6.5%',
       ibu: '32',
     },
     {
