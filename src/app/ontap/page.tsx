@@ -73,7 +73,7 @@ export default function OnTap() {
       ibu: '--',
     },
     {
-      name: "Coffee &amp; Cream Ale",
+      name: "Coffee & Cream Ale",
       style: "Cream Ale",
       brewery: 'New Heights',
       breweryLocation: 'Nashville, TN',
