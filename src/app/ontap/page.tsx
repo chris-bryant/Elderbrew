@@ -65,7 +65,7 @@ export default function OnTap() {
       ibu: '30',
     },
     {
-      name: "PB&amp;J Mixtape",
+      name: "PB&J Mixtape",
       style: "Sour",
       brewery: 'Xul Beer Co',
       breweryLocation: 'Knoxville, TN',
