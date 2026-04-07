@@ -8,6 +8,7 @@ import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
 import { styled as styledComponent } from 'styled-components';
+import taps from '../../../taps.json';
 
 const StyledBigHeader = styled(BigHeader)(() => ({
   backgroundColor: '#fff',
@@ -53,145 +54,61 @@ const OnTapGridItem = styled(Grid)(() => `
   }
 `);
 
+
+type Beer = {
+  id: string | null,
+  name: string,
+  style: string,
+  brewery: string,
+  location: string | null,
+  abv: string | null,
+  ibu: string | null
+}
+
+interface Taps {
+  [key: string]: Beer
+}
+
 export default function OnTap() {
-  const beers = [
-    // First Row
-    {
-      name: "Big Noise Transmission",
-      style: "Pale Ale",
-      brewery: 'Elderbrew',
-      breweryLocation: 'Bristol!',
-      abv: '5.5%',
-      ibu: '30',
-    },
-    {
-      name: "Sue",
-      style: "Smoked Porter",
-      brewery: 'Yazoo Brewing',
-      breweryLocation: 'Nashville, TN',
-      abv: '9.1%',
-      ibu: '40',
-    },
-    {
-      name: "Neon Renaissance",
-      style: "Pink Guava Gose",
-      brewery: 'Printshop Brewing',
-      breweryLocation: 'Knoxville, TN',
-      abv: '5.8%',
-      ibu: '--',
-    },
+  const beers: Taps = taps;
+  const tapIndexes = Object.keys(beers);
 
-    // Second Row
-    {
-      name: "Paper Crowns",
-      style: "Hazy IPA",
-      brewery: 'Xul Beer Co',
-      breweryLocation: 'Knoxville, TN',
-      abv: '6.8%',
-      ibu: '--',
-    },
-    {
-      name: "Chimay Blue",
-      style: "Belgian Strong Ale",
-      brewery: 'Chimay',
-      breweryLocation: 'Belgium',
-      abv: '9%',
-      ibu: '--',
-    },
-    {
-      name: "Mummentarts",
-      style: "Apple Tart Pastry Sour",
-      brewery: 'Xul Beer Co',
-      breweryLocation: 'Knoxville, TN',
-      abv: '6.1%',
-      ibu: '--',
-    },
-
-    // Third Row
-    {
-      name: "Limonata",
-      style: "Hard Italian Soda",
-      brewery: 'Bravazzi',
-      breweryLocation: 'Nashville, TN',
-      abv: '4.2%',
-      ibu: '--',
-    },
-    {
-      name: "Navel Gazer",
-      style: "Imperial Stout",
-      brewery: 'New Heights',
-      breweryLocation: 'Nashville, TN',
-      abv: '9.2%',
-      ibu: '--',
-    },
-    {
-      name: "Narragansett",
-      style: "Lager",
-      brewery: 'Narragansett Brewing',
-      breweryLocation: 'Providence, RI',
-      abv: '5%',
-      ibu: '--',
-    },
-
-    // Fourth Row
-    {
-      name: "Rat Trap",
-      style: "Pecan Smoked Saison",
-      brewery: 'Elderbrew',
-      breweryLocation: 'Bristol!',
-      abv: '6.5%',
-      ibu: '28',
-    },
-    {
-      name: "Nice Rack",
-      style: "Spiced Cider",
-      brewery: 'Diskin Cider',
-      breweryLocation: 'Nashville, TN',
-      abv: '6%',
-      ibu: '--',
-    },
-    {
-      name: "Pumpkin Ale",
-      style: 'Pumpkin Ale',
-      brewery: "Schlafly Brewing",
-      breweryLocation: 'St. Louis, MO',
-      abv: '8.0%',
-      ibu: '--',
-    },
-  ]
   return (
     <>
       <StyledBigHeader>
         On Tap <span>Now</span>
       </StyledBigHeader>
       <Grid container spacing={2}>
-        {beers.map((beer, i) => (
-          <OnTapGridItem key={beer.name} item xs={12} md={4}>
-            <Card elevation={6} variant={beer.brewery === 'Elderbrew' ? 'elder' : undefined}>
-              <StyledCardHeader>
-                <span>#{i + 1}</span>
-                <Typography variant="h5">
-                  {beer.name}
-                </Typography>
-                <Typography variant="h6">
-                  <Stack direction="row">
-                    {beer.style}
-                    <StyledDivider orientation="vertical" flexItem variant="middle" />
-                    {beer.abv} ABV
-                    <StyledDivider orientation="vertical" flexItem variant="middle" />
-                    {beer.ibu} IBU
-                  </Stack>
-                </Typography>
-              </StyledCardHeader>
-              <CardContent sx={{ textAlign: 'center' }}>
-                <Typography variant="h5">
-                  {beer.brewery}
-                </Typography>
-                {beer.breweryLocation}
-              </CardContent>
-            </Card>
-          </OnTapGridItem>
-        ))}
+        {tapIndexes.map(tapNumber => {
+          const beer = beers[tapNumber];
+          return (
+            <OnTapGridItem key={beer.name} item xs={12} md={4}>
+              <Card elevation={6} variant={beer.brewery === 'Elderbrew' ? 'elder' : undefined}>
+                <StyledCardHeader>
+                  <span>#{tapNumber}</span>
+                  <Typography variant="h5">
+                    {beer.name}
+                  </Typography>
+                  <Typography variant="h6">
+                    <Stack direction="row">
+                      {beer.style}
+                      <StyledDivider orientation="vertical" flexItem variant="middle" />
+                      {beer.abv} ABV
+                      <StyledDivider orientation="vertical" flexItem variant="middle" />
+                      {beer.ibu} IBU
+                    </Stack>
+                  </Typography>
+                </StyledCardHeader>
+                <CardContent sx={{ textAlign: 'center' }}>
+                  <Typography variant="h5">
+                    {beer.brewery}
+                  </Typography>
+                  {beer.location}
+                </CardContent>
+              </Card>
+            </OnTapGridItem>
+          )
+        })}
       </Grid>
     </>
   );
