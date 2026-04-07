@@ -4,7 +4,7 @@
     "name": "Big Noise Transmission",
     "style": "Pale Ale",
     "brewery": "Elderbrew",
-    "location": "",
+    "location": "Bristol!",
     "abv": "5.5",
     "ibu": "30"
   },
@@ -13,7 +13,7 @@
     "name": "Sue",
     "style": "Smoked Porter",
     "brewery": "Yazoo Brewing",
-    "location": "",
+    "location": "Nashville, TN",
     "abv": "9.1",
     "ibu": "40"
   },
@@ -22,7 +22,7 @@
     "name": "Neon Renaissance",
     "style": "Pink Guava Gose",
     "brewery": "Printshop Brewing",
-    "location": "",
+    "location": "Knoxville, TN",
     "abv": "5.8",
     "ibu": ""
   },
@@ -31,7 +31,7 @@
     "name": "Paper Crowns",
     "style": "Hazy IPA",
     "brewery": "Xul Beer Co",
-    "location": "",
+    "location": "Knoxville, TN",
     "abv": "6.8",
     "ibu": ""
   },
@@ -40,7 +40,7 @@
     "name": "Chimay Blue",
     "style": "Belgian Strong Ale",
     "brewery": "Chimay",
-    "location": "",
+    "location": "Belgium",
     "abv": "9",
     "ibu": ""
   },
@@ -49,7 +49,7 @@
     "name": "Mummentarts",
     "style": "Apple Tart Pastry Sour",
     "brewery": "Xul Beer Co",
-    "location": "",
+    "location": "Knoxville, TN",
     "abv": "6.1",
     "ibu": ""
   },
@@ -58,7 +58,7 @@
     "name": "Limonata",
     "style": "Hard Italian Soda",
     "brewery": "Bravazzi",
-    "location": "",
+    "location": "Nashville, TN",
     "abv": "4.2",
     "ibu": ""
   },
@@ -67,7 +67,7 @@
     "name": "Navel Gazer",
     "style": "Imperial Stout",
     "brewery": "New Heights",
-    "location": "",
+    "location": "Nashville, TN",
     "abv": "9.2",
     "ibu": ""
   },
@@ -76,7 +76,7 @@
     "name": "Narragansett",
     "style": "Lager",
     "brewery": "Narragansett Brewing",
-    "location": "",
+    "location": "Providence, RI",
     "abv": "5",
     "ibu": ""
   },
@@ -85,7 +85,7 @@
     "name": "Rat Trap (Smoked Wheat Edition)",
     "style": "Belgian Saison",
     "brewery": "Elderbrew",
-    "location": "",
+    "location": "Bristol!",
     "abv": "6.5",
     "ibu": ""
   },
@@ -94,7 +94,7 @@
     "name": "Nice Rack",
     "style": "Spiced Cider",
     "brewery": "Diskin Cider",
-    "location": "",
+    "location": "Nashville, TN",
     "abv": "6",
     "ibu": ""
   },
@@ -103,7 +103,7 @@
     "name": "Pumpkin Ale",
     "style": "Pumpkin Ale",
     "brewery": "Schlafly Brewing",
-    "location": "",
+    "location": "St. Louis, MO",
     "abv": "8",
     "ibu": ""
   }
