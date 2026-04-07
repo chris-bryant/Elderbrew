@@ -1,0 +1,110 @@
+{
+  "1": {
+    "id": null,
+    "name": "Big Noise Transmission",
+    "style": "Pale Ale",
+    "brewery": "Elderbrew",
+    "location": "",
+    "abv": "5.5",
+    "ibu": "30"
+  },
+  "2": {
+    "id": null,
+    "name": "Sue",
+    "style": "Smoked Porter",
+    "brewery": "Yazoo Brewing",
+    "location": "",
+    "abv": "9.1",
+    "ibu": "40"
+  },
+  "3": {
+    "id": null,
+    "name": "Neon Renaissance",
+    "style": "Pink Guava Gose",
+    "brewery": "Printshop Brewing",
+    "location": "",
+    "abv": "5.8",
+    "ibu": ""
+  },
+  "4": {
+    "id": null,
+    "name": "Paper Crowns",
+    "style": "Hazy IPA",
+    "brewery": "Xul Beer Co",
+    "location": "",
+    "abv": "6.8",
+    "ibu": ""
+  },
+  "5": {
+    "id": null,
+    "name": "Chimay Blue",
+    "style": "Belgian Strong Ale",
+    "brewery": "Chimay",
+    "location": "",
+    "abv": "9",
+    "ibu": ""
+  },
+  "6": {
+    "id": null,
+    "name": "Mummentarts",
+    "style": "Apple Tart Pastry Sour",
+    "brewery": "Xul Beer Co",
+    "location": "",
+    "abv": "6.1",
+    "ibu": ""
+  },
+  "7": {
+    "id": null,
+    "name": "Limonata",
+    "style": "Hard Italian Soda",
+    "brewery": "Bravazzi",
+    "location": "",
+    "abv": "4.2",
+    "ibu": ""
+  },
+  "8": {
+    "id": null,
+    "name": "Navel Gazer",
+    "style": "Imperial Stout",
+    "brewery": "New Heights",
+    "location": "",
+    "abv": "9.2",
+    "ibu": ""
+  },
+  "9": {
+    "id": null,
+    "name": "Narragansett",
+    "style": "Lager",
+    "brewery": "Narragansett Brewing",
+    "location": "",
+    "abv": "5",
+    "ibu": ""
+  },
+  "10": {
+    "id": null,
+    "name": "Rat Trap (Smoked Wheat Edition)",
+    "style": "Belgian Saison",
+    "brewery": "Elderbrew",
+    "location": "",
+    "abv": "6.5",
+    "ibu": ""
+  },
+  "11": {
+    "id": null,
+    "name": "Nice Rack",
+    "style": "Spiced Cider",
+    "brewery": "Diskin Cider",
+    "location": "",
+    "abv": "6",
+    "ibu": ""
+  },
+  "12": {
+    "id": null,
+    "name": "Pumpkin Ale",
+    "style": "Pumpkin Ale",
+    "brewery": "Schlafly Brewing",
+    "location": "",
+    "abv": "8",
+    "ibu": ""
+  }
+}
