@@ -1,12 +1,12 @@
 {
   "1": {
     "id": null,
-    "name": "Big Noise Transmission",
+    "name": "Czech Pilsner",
     "style": "Pale Ale",
-    "brewery": "Elderbrew",
-    "location": "Bristol!",
-    "abv": "5.5",
-    "ibu": "30"
+    "brewery": "Urban Chestnut Brewing",
+    "location": "St. Louis, MO",
+    "abv": "5.3",
+    "ibu": "35"
   },
   "2": {
     "id": "1778094091576",
@@ -28,12 +28,12 @@
   },
   "4": {
     "id": "1778094123917",
-    "name": "Hop Perfect",
-    "style": "IPA",
-    "brewery": "Yazoo",
-    "location": "Nashville, TN",
-    "abv": "5.7",
-    "ibu": "91"
+    "name": "Superdelic Juicy Pants",
+    "style": "Hazy IPA",
+    "brewery": "Maplewood Brewing",
+    "location": "Normal, IL",
+    "abv": "7",
+    "ibu": ""
   },
   "5": {
     "id": "1778094147577",
