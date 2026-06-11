@@ -27,21 +27,21 @@
     "ibu": "11"
   },
   "4": {
-    "id": null,
-    "name": "Paper Crowns",
-    "style": "Hazy IPA",
-    "brewery": "Xul Beer Co",
-    "location": "Knoxville, TN",
-    "abv": "6.8",
-    "ibu": ""
+    "id": "1778094123917",
+    "name": "Hop Perfect",
+    "style": "IPA",
+    "brewery": "Yazoo",
+    "location": "Nashville, TN",
+    "abv": "5.7",
+    "ibu": "91"
   },
   "5": {
     "id": "1778094147577",
-    "name": "Schwarz",
-    "style": "Black Lager",
-    "brewery": "Von Trapp Brewing",
-    "location": "Stowe, VT",
-    "abv": "5.2",
+    "name": "Smithwick's",
+    "style": "Irish Red",
+    "brewery": "Guinness",
+    "location": "Dublin, Ireland",
+    "abv": "4.5",
     "ibu": ""
   },
   "6": {
