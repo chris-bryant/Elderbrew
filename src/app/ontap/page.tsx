@@ -1,4 +1,5 @@
 'use client'
+import { UnifrakturMaguntia } from 'next/font/google'; 
 import BigHeader from '@/components/BigHeader';
 import { Typography } from '@mui/material';
 import Stack from '@mui/material/Stack';
@@ -9,6 +10,12 @@ import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
 import { styled as styledComponent } from 'styled-components';
 import taps from '../../../taps.json';
+
+const unifraktur = UnifrakturMaguntia({
+  weight: "400",
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 const StyledBigHeader = styled(BigHeader)(() => ({
   backgroundColor: '#fff',
@@ -52,8 +59,17 @@ const OnTapGridItem = styled(Grid)(() => `
     flex-direction: column;
     justify-content: space-between;
   }
+  
+  &.beer-engine {
+    .MuiPaper-root {
+      border: 30px solid transparent;
+      border-image: url('frame.png') 60 / 30px / 0px round;
+      box-shadow: none;
+      background: linear-gradient(179deg, #b00000, #350000);
+      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    }
+  }
 `);
-
 
 type Beer = {
   id: string | null,
@@ -78,12 +94,26 @@ export default function OnTap() {
       <StyledBigHeader>
         On Tap <span>Now</span>
       </StyledBigHeader>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} sx={{ justifyContent: 'center' }}>
         {tapIndexes.map(tapNumber => {
           const beer = beers[tapNumber];
+          const isBeerEngine = parseInt(tapNumber, 10) === 13;
           return (
-            <OnTapGridItem key={beer.name} item xs={12} md={4}>
+            <OnTapGridItem key={beer.name} item xs={12} md={4} className={isBeerEngine ? 'beer-engine' : '' }>
               <Card elevation={6} variant={beer.brewery === 'Elderbrew' ? 'elder' : undefined}>
+                <>
+                  {isBeerEngine && (
+                    <h1 style={{
+                      fontFamily: unifraktur.style.fontFamily,
+                      textAlign: 'center',
+                      background: 'rgba(0, 0, 0, 0.6)',
+                      textShadow: '0 2px 2px red',
+                      fontSize: '2.5rem',
+                      borderBottom: '1px solid black',
+                      padding: '0.5rem'
+                    }}>Beer Engine</h1>
+                  )}
+                </>
                 <StyledCardHeader>
                   <span>#{tapNumber}</span>
                   <Typography variant="h5">

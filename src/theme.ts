@@ -1,5 +1,5 @@
 'use client';
-import { Roboto_Condensed, Righteous } from 'next/font/google'; 
+import { Roboto_Condensed, Righteous, UnifrakturMaguntia } from 'next/font/google'; 
 import { createTheme } from '@mui/material/styles';
 
 declare module '@mui/material/Paper' {
@@ -18,6 +18,12 @@ const righteous = Righteous({
   subsets: ['latin'],
   display: 'swap',
   weight: '400'
+});
+
+const unifraktur = UnifrakturMaguntia({
+  weight: "400",
+  subsets: ['latin'],
+  display: 'swap',
 });
 
 const theme = createTheme({
