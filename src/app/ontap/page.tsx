@@ -61,11 +61,11 @@ const OnTapGridItem = styled(Grid)(() => `
   }
   
   &.beer-engine {
-    .MuiPaper-root {ß
+    .MuiPaper-root {
       border: 30px solid transparent;
       border-image: url('frame.png') 60 / 30px / 0px round;
       box-shadow: none;
-      background: linear-gradient(179deg, #b00000, #350000);
+      background: linear-gradient(179deg, #b00000,ß #350000);
       text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
       background-clip: content-box;
       padding: 0.25rem;
