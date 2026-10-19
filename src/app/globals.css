@@ -96,6 +96,7 @@ body {
   background-position: left top, left bottom, left top;
   background-attachment: fixed, fixed, fixed;
   background-blend-mode: hard-light;
+  background-size: auto, auto, cover, auto;
 }
 
 a {
